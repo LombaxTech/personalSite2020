@@ -1,0 +1,37 @@
+body {
+    background: black;
+    max-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.side {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    background: darkviolet;
+    z-index: 1;
+}
+
+.main {
+    background: black;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    color: white;
+}
